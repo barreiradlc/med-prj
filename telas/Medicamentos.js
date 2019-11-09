@@ -54,7 +54,8 @@ export default class Medicamentos extends React.Component {
                   color={ico.c}
                   size={ico.w}
                 />
-                <Text style={styles.legenda}>Grupos de apoio</Text>
+                <Text style={styles.legenda}>Grupos</Text>
+                <Text style={styles.legenda}>de apoio</Text>
               </TouchableOpacity>
             </View>
           </View>
