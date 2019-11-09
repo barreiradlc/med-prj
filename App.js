@@ -8,6 +8,11 @@ import Medicamentos from './telas/Medicamentos'
 import Agendamentos from './telas/Agendamentos'
 import Bulas from './telas/Bulas'
 
+import PraticasIntegrativas from './telas/PraticasIntegrativas'
+import Vacinacoes from './telas/Vacinacoes'
+import MedicamentosLista from './telas/MedicamentosLista'
+import GruposDeApoio from './telas/GruposDeApoio'
+
 class HomeScreen extends React.Component {
   render() {
     return (
@@ -67,6 +72,31 @@ const RootStack = createStackNavigator({
     screen: Medicamentos, 
     navigationOptions: {
       title: 'Medicamentos'
+    },
+  },
+  // disponibilidade
+  PraticasIntegrativas:{
+    screen: PraticasIntegrativas, 
+    navigationOptions: {
+      title: 'PraticasIntegrativas'
+    },
+  },
+  MedicamentosLista:{
+    screen: MedicamentosLista, 
+    navigationOptions: {
+      title: 'MedicamentosLista'
+    },
+  },
+  GruposDeApoio:{
+    screen: GruposDeApoio, 
+    navigationOptions: {
+      title: 'GruposDeApoio'
+    },
+  },
+  Vacinacoes:{
+    screen: Vacinacoes, 
+    navigationOptions: {
+      title: 'Vacinacoes'
     },
   },
 });

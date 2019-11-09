@@ -15,11 +15,19 @@ export default class Medicamentos extends React.Component {
     title: 'Disponibilidade',
   };
 
-  _onPressButton = () => {
-    this.props.navigation.navigate('Bulas')
+  _onPressButtonMedicamentosLista = () => {
+    this.props.navigation.navigate('MedicamentosLista')
   };
-
-
+  _onPressButtonPraticasIntegrativas = () => {
+    this.props.navigation.navigate('PraticasIntegrativas')
+  };
+  _onPressButtonGruposDeApoio = () => {
+    this.props.navigation.navigate('GruposDeApoio')
+  };
+  _onPressButtonVacinacoes = () => {
+    this.props.navigation.navigate('Vacinacoes')
+  };
+  
 
   render() {
   
@@ -38,7 +46,7 @@ export default class Medicamentos extends React.Component {
             <View style={styles.container}>
               <TouchableOpacity
                 style={styles.central}
-                onPress={this._onPressButton}>
+                onPress={this._onPressButtonGruposDeApoio}>
                 <Icon
                   reverse
                   name="users"
@@ -55,7 +63,7 @@ export default class Medicamentos extends React.Component {
             <View style={styles.container}>
               <TouchableOpacity
                 style={styles.central}
-                onPress={this._onPressButton}>
+                onPress={this._onPressButtonMedicamentosLista}>
                 <Icon
                   reverse
                   name="pill"
@@ -75,7 +83,7 @@ export default class Medicamentos extends React.Component {
             <View style={styles.container}>
               <TouchableOpacity
                 style={styles.central}
-                onPress={this._onPressButton}>
+                onPress={this._onPressButtonVacinacoes}>
                 <Icon
                 size={ico.w}
                   reverse
@@ -92,7 +100,7 @@ export default class Medicamentos extends React.Component {
             <View style={styles.container}>
               <TouchableOpacity
                 style={styles.central}
-                onPress={this._onPressButton}>
+                onPress={this._onPressButtonPraticasIntegrativas}>
                 <Icon
                   reverse
                   name="yin-yang"
