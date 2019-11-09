@@ -1,5 +1,5 @@
 import { ListItem } from 'react-native-elements'
-import { View } from 'react-native'
+import { ScrollView } from 'react-native'
 import React from 'react'
 import { SearchBar } from 'react-native-elements';
 
@@ -33,7 +33,7 @@ const list = [
 
 
   return(
-    <View>
+    <ScrollView>
       <SearchBar
         placeholder="Faça sua pesquisa..."
         onChangeText={this.updateSearch}
@@ -53,7 +53,7 @@ const list = [
           />
         ))
       }
-    </View>
+    </ScrollView>
   )
 }
 
