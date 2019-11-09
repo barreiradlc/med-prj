@@ -7,14 +7,19 @@ function Vacinacoes(){
 
 const list = [
   {
-    name: 'Amy Farha',
+    name: 'Hepatite B',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-    subtitle: 'Vice President'
+    subtitle: '27/12/2019'
   },
   {
-    name: 'Chris Jackson',
+    name: 'Febre Amarela',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    subtitle: '21/11/2019'
+  },
+  {
+    name: 'Tríplice Viral',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: '23/11/2019'
   },
 ]
 
