@@ -7,14 +7,14 @@ function GruposDeApoio(){
 
 const list = [
   {
-    name: 'Amy Farha',
+    name: 'Doenças crônicas',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-    subtitle: 'Vice President'
+    subtitle: '12/nov/2019 Terça-feira 16:30 horas'
   },
   {
-    name: 'Chris Jackson',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    name: 'Saúde mental',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: '15/nov/2019 Sexta-feira 12:30 horas'
   },
 ]
 
