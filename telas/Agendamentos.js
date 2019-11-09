@@ -9,14 +9,14 @@ function Agendamentos(){
 
 const list = [
   {
-    name: 'Amy Farha',
+    name: 'Carbamazepina 200mg comprimido ',
     avatar_url: 'https://i0.wp.com/www.hisour.com/wp-content/uploads/2018/03/Alabama-crimson-color.jpg?fit=720%2C720&ssl=1',
-    subtitle: 'Vice President'
+    subtitle: ''
   },
   {
-    name: 'Chris Jackson',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    name: 'Celecoxibe 200mg cápsula ',
+    avatar_url: 'https://imagens.netstore.com.br/lojadopapel/images/p/Azul-Turquesa-Bahamas.jpg?mode=pad&scale=upscalecanvas&format=jpg&quality=90&w=1600&h=1600&404=default',
+    subtitle: ''
   },
 ]
 
