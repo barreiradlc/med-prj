@@ -7,15 +7,26 @@ function PraticasIntegrativas(){
 
 const list = [
   {
-    name: 'Amy Farha',
+    name: 'Automassagem',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-    subtitle: 'Vice President'
+    subtitle: '12/nov/2019 Terça-feira 13:00 horas'
   },
   {
-    name: 'Chris Jackson',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-    subtitle: 'Vice Chairman'
+    name: 'Terapia Comunitária',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: '15/nov/2019 Sexta-feira 14:30 horas'
   },
+  {
+    name: 'Dança Circular',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: '12/nov/2019 Terça-feira 15:00 horas'
+  },
+  {
+    name: 'Tai Chi Chuan',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: '15/nov/2019 Sexta-feira 18:00 horas'
+  },
+  
 ]
 
   let search = ''
