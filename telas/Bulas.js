@@ -13,32 +13,32 @@ function Bulas(){
 
 const list = [
   {
-    name: 'Carbamazepina 200mg comprimido (Com estoque)',
+    name: 'Carbamazepina 200mg comprimido',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
     subtitle: '90.071'
   },
   {
-    name: 'Carbamazepina 100mg/5ml suspensão oral (Com estoque)',
+    name: 'Carbamazepina 100mg/5ml suspensão oral',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: '90.072'
   },
   {
-    name: 'Carbonato de lítio 300mg comprimido (Sem estoque)',
+    name: 'Carbonato de lítio 300mg comprimido',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: '11.096'
   },
   {
-    name: 'Celecoxibe 200mg cápsula (Com estoque)',
+    name: 'Celecoxibe 200mg cápsula',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: '17.860'
   },
   {
-    name: 'Clomipramina 25mg comprimido ou drágea (Com estoque)',
+    name: 'Clomipramina 25mg comprimido ou drágea',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: '90.102'
   },
   {
-    name: 'Clomipramina 75mg comprimido de liberação lenta (Com estoque)',
+    name: 'Clomipramina 75mg comprimido de liberação lenta',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
     subtitle: '90.333'
   },
